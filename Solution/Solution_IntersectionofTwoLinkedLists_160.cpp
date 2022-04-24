@@ -4,7 +4,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
   };
 
-//방법1
+//방법1 O(N+M)/O(1)
 class Solution {
 public:
     int size(ListNode* list) {
@@ -44,7 +44,7 @@ public:
     }
 };
 
-//방법2
+//방법2 O(N+M)/O(1)
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
