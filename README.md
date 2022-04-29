@@ -1,2 +1,2 @@
 # LeetCode
-LeetCode풀이입니다.
+LeetCode풀이를 위한 레퍼지토리입니다.
