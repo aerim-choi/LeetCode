@@ -1,3 +1,4 @@
+//O(N)/O(1) 
 class MyQueue {
     stack<int> s;
     stack<int> temp;
