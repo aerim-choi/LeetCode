@@ -1,4 +1,4 @@
-//O(N)/O(1)
+//O(N)/O(N)
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
