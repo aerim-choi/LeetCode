@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+    int minimumSum(int num) {
+        string strnum = to_string(num);//int형 -> string형 변환
+        int array[4];
+  
+        for (int i = 0; i < 3; i++) {
+            array[i] = (int)(strnum[i]);
+        }
+        sort(array ,array + 4);
+        cout << array[0] <<" "<< array[1] << " " << array[2] << " " << array[3];
+
+
+        return 0;
+    }
+};
+
+int main() {
+    Solution s;
+    s.minimumSum(1234);
+}
